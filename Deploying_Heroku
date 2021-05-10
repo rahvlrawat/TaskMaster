@@ -1,0 +1,14 @@
+Heroku login 
+git init
+install gunicorn
+freeze requirements.txt
+echo text>Procfile
+    {
+    web: gunicorn app:app
+    }
+git init 
+git add .
+git commit -m "XYZ"
+heroku create (Name)
+git remote -v
+git push heroku master
